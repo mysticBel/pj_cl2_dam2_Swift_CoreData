@@ -31,7 +31,30 @@ class DetalleViewController: UIViewController {
         lblChef.text = bean.chef
     }
     
-
+    @IBAction func btnEliminar(_ sender: UIButton) {
+        // Crear ventana alerta "alert"
+            let alert = UIAlertController(
+            title: "SISTEMA",
+            message: "Estas seguro de eliminar?",
+            preferredStyle: .alert)
+        // Boton Aceptar
+            let buttonAcept = UIAlertAction(
+            title: "Aceptar", style: .default,
+            handler: {
+                // accion de eliminar desde el controller
+                action in PlatoController().deletePlato(bean: self.bean)
+                           })
+                           // Agregar accion a la alerta
+                           alert.addAction(buttonAcept)
+                       // Boton Cancelar y accion
+                       let buttonCancel = UIAlertAction(
+                          title: "Cancelar", style: .cancel)
+                          // Agregar accion a la alerta
+                          alert.addAction(buttonCancel)
+                   // Mostrar la alerta
+                   present(alert, animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

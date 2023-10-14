@@ -19,6 +19,7 @@
 		96CC6DC32ADA359B002289A9 /* Plato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC6DC22ADA359B002289A9 /* Plato.swift */; };
 		96CC6DC52ADA36DC002289A9 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC6DC42ADA36DC002289A9 /* ItemTableViewCell.swift */; };
 		96CC6DC72ADA3CB1002289A9 /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC6DC62ADA3CB1002289A9 /* DetalleViewController.swift */; };
+		96CC6DC92ADA542D002289A9 /* NuevoPlatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC6DC82ADA542D002289A9 /* NuevoPlatoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		96CC6DC22ADA359B002289A9 /* Plato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plato.swift; sourceTree = "<group>"; };
 		96CC6DC42ADA36DC002289A9 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		96CC6DC62ADA3CB1002289A9 /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+		96CC6DC82ADA542D002289A9 /* NuevoPlatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevoPlatoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				96CC6DC22ADA359B002289A9 /* Plato.swift */,
 				96CC6DC42ADA36DC002289A9 /* ItemTableViewCell.swift */,
 				96CC6DC62ADA3CB1002289A9 /* DetalleViewController.swift */,
+				96CC6DC82ADA542D002289A9 /* NuevoPlatoViewController.swift */,
 			);
 			path = CL2_Dam2_Maza;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				96CC6DAB2ADA2418002289A9 /* ViewController.swift in Sources */,
 				96CC6DA72ADA2418002289A9 /* AppDelegate.swift in Sources */,
 				96CC6DC32ADA359B002289A9 /* Plato.swift in Sources */,
+				96CC6DC92ADA542D002289A9 /* NuevoPlatoViewController.swift in Sources */,
 				96CC6DC72ADA3CB1002289A9 /* DetalleViewController.swift in Sources */,
 				96CC6DC12ADA3508002289A9 /* PlatoController.swift in Sources */,
 				96CC6DC52ADA36DC002289A9 /* ItemTableViewCell.swift in Sources */,
