@@ -15,6 +15,8 @@
 		96CC6DB32ADA241D002289A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CC6DB22ADA241D002289A9 /* Assets.xcassets */; };
 		96CC6DB62ADA241D002289A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CC6DB42ADA241D002289A9 /* LaunchScreen.storyboard */; };
 		96CC6DBF2ADA33B7002289A9 /* BuenaComidaModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96CC6DBD2ADA33B7002289A9 /* BuenaComidaModel.xcdatamodeld */; };
+		96CC6DC12ADA3508002289A9 /* PlatoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC6DC02ADA3508002289A9 /* PlatoController.swift */; };
+		96CC6DC32ADA359B002289A9 /* Plato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC6DC22ADA359B002289A9 /* Plato.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		96CC6DB52ADA241D002289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96CC6DB72ADA241D002289A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96CC6DBE2ADA33B7002289A9 /* BuenaComidaModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BuenaComidaModel.xcdatamodel; sourceTree = "<group>"; };
+		96CC6DC02ADA3508002289A9 /* PlatoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatoController.swift; sourceTree = "<group>"; };
+		96CC6DC22ADA359B002289A9 /* Plato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plato.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				96CC6DB72ADA241D002289A9 /* Info.plist */,
 				96CC6DAF2ADA2418002289A9 /* CL2_Dam2_Maza.xcdatamodeld */,
 				96CC6DBD2ADA33B7002289A9 /* BuenaComidaModel.xcdatamodeld */,
+				96CC6DC02ADA3508002289A9 /* PlatoController.swift */,
+				96CC6DC22ADA359B002289A9 /* Plato.swift */,
 			);
 			path = CL2_Dam2_Maza;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			files = (
 				96CC6DAB2ADA2418002289A9 /* ViewController.swift in Sources */,
 				96CC6DA72ADA2418002289A9 /* AppDelegate.swift in Sources */,
+				96CC6DC32ADA359B002289A9 /* Plato.swift in Sources */,
+				96CC6DC12ADA3508002289A9 /* PlatoController.swift in Sources */,
 				96CC6DB12ADA2418002289A9 /* CL2_Dam2_Maza.xcdatamodeld in Sources */,
 				96CC6DBF2ADA33B7002289A9 /* BuenaComidaModel.xcdatamodeld in Sources */,
 				96CC6DA92ADA2418002289A9 /* SceneDelegate.swift in Sources */,
